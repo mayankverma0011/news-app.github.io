@@ -1,0 +1,58 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,300;1,400&display=swap');/ */
+
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Slab&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital,wght@1,300;1,400&display=swap'); */
+
+  
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+  
+}
+#bg-color{
+    background-color: #609db3;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+#text-color{
+    color: #000;
+font-size: 18px;
+}
+
+h5{
+    font-size: 35px;
+    color: #fff;
+
+}
+
+    span{
+    color: #000;
+}
+
+/* ------------------------------media query  fro tablet--------------------- */
+@media(max-width:768px){
+
+    #bg-color{
+     position: fixed;
+     top: 0%;
+     width: 100%;
+      
+    }
+
+    
+
+}
